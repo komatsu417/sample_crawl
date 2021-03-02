@@ -64,5 +64,6 @@ for link in links:
       urlretrieve(link,a+str(count)+".jpg")
       print(str(count)+"th file downloaded")
    except Exception as e:
+      print(e)
             
 
